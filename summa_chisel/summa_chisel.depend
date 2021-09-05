@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1630554702 source:c:\users\user\documents\c++\codewars\summa_chisel\main.c
+	<stdio.h>
+	<stdlib.h>
+
