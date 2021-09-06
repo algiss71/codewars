@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int find_missing(const int *nums, size_t n)
+{
+    int interval = 0; int i = 0;
+    int progress = nums[i + 1] - nums[i];
+    if() return nums[]
+    do
+    {
+           interval = nums[i + 1] - nums[i];
+           i++;
+    }while(progress == interval);
+
+
+
+    return nums[i] - progress;
+}
+int main()
+{
+     int A[] = {1, 3, 5, 9, 11};
+    int N = sizeof(A)/sizeof(int);
+    printf("%d\n",find_missing((A),N));
+
+    return 0;
+}

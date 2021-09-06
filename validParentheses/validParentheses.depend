@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1630659406 source:e:\001\codewars\validparentheses\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+

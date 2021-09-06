@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1629891678 source:e:\001\codewars\get_count\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+

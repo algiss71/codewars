@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+
+long sum_two_smallest_numbers(size_t n, const int numbers[n])
+ {
+
+    int a[n];
+    int i = 0;
+    for(i = 0; i < n; i++)
+        a[i] = numbers[i];
+    int temp = 0;
+    for
+    {
+    
+        for(i = 0; i < n; i++)
+        if(a[i]> a[i+1])
+        {
+            temp = a[i];
+            a[i] = a[i+1];
+            a[i+1] = temp;
+        }
+
+    
+        
+    }
+        
+    for(i = 0; i < n; i++)
+        printf("%d ,",a[i]);
+    return a[0]+ a[1];
+}
+int main()
+{
+    int n = 7;
+    int N[]={389, 1028, 455,56, 88 ,102 ,555};
+
+    int res = sum_two_smallest_numbers(n, N);
+    printf("res = %d\n",res);
+    return 0;
+}

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1630415626 source:e:\001\codewars\solution\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<ctype.h>
+	<string.h>
+

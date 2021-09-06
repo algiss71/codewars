@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+char *copy_part_str(const char *S)
+{
+   const char ArrSym[]="euioaEUIOA";
+   const int N = strlen(S);
+   //char S1[N];
+
+   int k = 0;
+    char* S1 = (char*)malloc((N) * sizeof(char));
+    for (int i = 0; i < N; i++)
+        if (strchr(ArrSym,S[i]) == NULL && S[i])
+            S1[k++]=S[i];
+    S1[k]=0;
+    printf("S1 = %s\n",S1);
+    return S1;
+}
+
+int main() {
+
+   const int N =255;
+   char S[N] = ;
+
+  /*gets(S);*/
+  printf("S = %s",copy_part_str(S));
+}

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1629977932 source:e:\001\codewars\disemvowel\main.c
+	<stdio.h>
+	<string.h>
+

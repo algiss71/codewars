@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1630569742 source:e:\001\codewars\balancednum\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

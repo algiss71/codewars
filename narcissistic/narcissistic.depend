@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1630039885 source:e:\001\codewars\narcissistic\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+
