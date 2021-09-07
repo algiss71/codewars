@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1630916857 source:e:\001\codewars\longarif\main.c
+	<stdio.h>
+	<string.h>
+

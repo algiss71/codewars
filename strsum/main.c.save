@@ -13,7 +13,7 @@ char *strsum(const char *a, const char *b)
     int a[100],b[100],c[100];
     int i;
     a[0] = strlen(str);
-
+    
     for(i = 1;i <= a[0];i++)
     a[a[0] - i + 1] = str[i - 1] - 48;
     int la = strlen(a);
